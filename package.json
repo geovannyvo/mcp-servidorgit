@@ -30,17 +30,21 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "zod": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^20.17.28",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitest/coverage-v8": "^1.0.0",
     "eslint": "^8.0.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.0.0",
+    "typescript": "^5.8.2",
     "vite": "^5.0.0",
     "vitest": "^1.0.0"
   }
